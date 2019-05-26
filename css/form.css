@@ -1,0 +1,157 @@
+ body {
+
+     margin: 0;
+     padding: 0;
+ }
+
+ .textbox {
+     border: 1px solid #c4c4c4;
+     height: 25px;
+     width: 275px;
+     font-size: 13px;
+     padding: 4px 4px 4px 4px;
+     border-radius: 4px;
+     -moz-border-radius: 4px;
+     -webkit-border-radius: 4px;
+     box-shadow: 0px 0px 8px #d9d9d9;
+     -moz-box-shadow: 0px 0px 8px #d9d9d9;
+     -webkit-box-shadow: 0px 0px 8px #d9d9d9;
+ }
+
+ .button {
+     display: inline-block;
+     border-radius: 4px;
+     background-color: #E1212D;
+     border: none;
+     color: #FFFFFF;
+     text-align: center;
+     font-size: 12px;
+     padding: 10px;
+     width: 100px;
+     transition: all 0.5s;
+     cursor: pointer;
+     margin: 60px;
+     margin-top: 30px;
+ }
+
+ .button span {
+     cursor: pointer;
+     display: inline-block;
+     position: relative;
+     transition: 0.5s;
+ }
+
+ .button span:after {
+     content: '\00bb';
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     right: -20px;
+     transition: 0.5s;
+ }
+
+ .button:hover span {
+     padding-right: 25px;
+ }
+
+ .button:hover span:after {
+     opacity: 1;
+     right: 0;
+ }
+
+ h1 {
+     color: #000000;
+     text-align: center;
+     font-family: "SIMPSON";
+ }
+
+ form {
+     width: 380px;
+     margin: auto;
+     background-color: white;
+ }
+
+
+/*Aniket*/
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+     position: fixed;
+     top: 0px;
+     width: 100%;
+ }
+
+ li {
+     float: left;
+ }
+
+ li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+
+ li a:hover {
+     background-color: #111;
+ }
+
+
+
+ /*Nawade*/
+
+ label {
+     width: 180px;
+     clear: left;
+     text-align: right;
+     padding-right: 25px;
+ }
+
+ input,
+ label {
+     float: left;
+ }
+
+ .container {
+     padding: 50px;
+ }
+
+ 
+
+
+ div.r1 {
+     position: absolute;
+     top: 200px;
+     right: 55;
+     width: 375px;
+     height: 100px;
+     font-size: 20px;
+
+ }
+
+ div.r2 {
+     position: absolute;
+     top: 300px;
+     right: 55;
+     width: 375px;
+     height: 100px;
+     font-size: 20px;
+
+ }
+
+
+
+
+ div.r3 {
+     position: absolute;
+     top: 500px;
+     right: -40;
+     width: 375px;
+     height: 100px;
+     font-size: 20px;
+
+ }

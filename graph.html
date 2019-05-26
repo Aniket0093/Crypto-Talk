@@ -1,0 +1,41 @@
+<html>
+    <head>
+<link rel="stylesheet" type="text/css" href="css/form.css">
+        <style>
+            body,
+    html {
+        background-image: url('Images/step1.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+.center-div
+{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+        </style>
+    </head>
+    
+    <ul>
+                        <li><a class="active" href="./second_page.php">Back</a></li>
+						
+					</ul>
+
+    <div align="center" class="btcwdgt-chart"></div>
+    
+</html>
+<script>
+  (function(b,i,t,C,O,I,N) {
+    window.addEventListener('load',function() {
+      if(b.getElementById(C))return;
+      I=b.createElement(i),N=b.getElementsByTagName(i)[0];
+      I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
+    },false)
+  })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
+</script>
